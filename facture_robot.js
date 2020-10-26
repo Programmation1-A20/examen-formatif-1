@@ -10,10 +10,10 @@ var resume = 'Robot avec ';
 // Programme, sans validations (nous assumons donc que l'utilisateur saisit les bonnes valeurs)
 controlleur = prompt('Veuillez chosir un contrôlleur (1. RaspBerry Pi (55$)     2.Raspberry Pi Zero (15$): ');
 if(controlleur === '1') {
-    resume += ' RaspBerry Pi, ';
+    resume += 'RaspBerry Pi, ';
     totalFacture += 55;
 } else {
-    resume += ' Raspberry Pi Zero, ';
+    resume += 'Raspberry Pi Zero, ';
     totalFacture += 15;
 }
 
